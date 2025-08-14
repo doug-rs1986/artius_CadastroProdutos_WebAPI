@@ -1,6 +1,0 @@
-@artius_CadastroProdutos_WebAPI_HostAddress = http://localhost:5027
-
-GET {{artius_CadastroProdutos_WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
