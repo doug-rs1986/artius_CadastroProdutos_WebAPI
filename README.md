@@ -53,4 +53,4 @@ MIT
 ---
 
 **Contato:**
-Para dúvidas ou oportunidades, entre em contato pelo [LinkedIn](https://www.linkedin.com/) ou abra uma issue.
+Para dúvidas ou oportunidades, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/douglas-rodrigues-santos) ou abra uma issue.
