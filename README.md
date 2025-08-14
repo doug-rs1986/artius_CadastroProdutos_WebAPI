@@ -1,15 +1,15 @@
 # Cadastro de Produtos WebAPI
 
-API RESTful para cadastro e consulta de produtos, desenvolvida com .NET 8, C# 12 e Entity Framework Core (InMemory). O projeto demonstra boas práticas de arquitetura, como uso de Repository, Service, DTOs e documentação automática via Swagger.
+API RESTful para cadastro e consulta de produtos, desenvolvida com .NET 8, C# 12 e Entity Framework Core (InMemory). O projeto demonstra boas prÃ¡ticas de arquitetura, como uso de Repository, Service, DTOs e documentaÃ§Ã£o automÃ¡tica via Swagger.
 
 ## Funcionalidades
 
-- Cadastro de produtos (nome, preço, categoria)
+- Cadastro de produtos (nome, preÃ§o, categoria)
 - Consulta de produtos cadastrados
 - Arquitetura limpa: Repository, Service e DTOs
-- Banco de dados em memória para fácil execução e testes
-- CORS habilitado para integração com frontends (ex: React)
-- Documentação interativa via Swagger
+- Banco de dados em memÃ³ria para fÃ¡cil execuÃ§Ã£o e testes
+- CORS habilitado para integraÃ§Ã£o com frontends (ex: React)
+- DocumentaÃ§Ã£o interativa via Swagger
 
 ## Tecnologias Utilizadas
 
@@ -21,36 +21,36 @@ API RESTful para cadastro e consulta de produtos, desenvolvida com .NET 8, C# 12
 
 ## Como Executar
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone [https://github.com/doug-rs1986/artius_CadastroProdutos_WebAPI]
+   cd artius_CadastroProdutos_WebAPI
    ```
 2. Execute o projeto:
    ```bash
    dotnet run
    ```
-3. Acesse a documentação interativa:
+3. Acesse a documentaÃ§Ã£o interativa:
    [https://localhost:7257;http://localhost:5027)
 
 ## Endpoints Principais
 
-- `POST /cadastrarProduto` — Cadastra um novo produto
-- `GET /buscarProdutos` — Lista todos os produtos cadastrados
+- `POST /cadastrarProduto` â€” Cadastra um novo produto
+- `GET /buscarProdutos` â€” Lista todos os produtos cadastrados
 
 ## Estrutura do Projeto
 
-- `Endpoints/` — Mapeamento dos endpoints da API
-- `Repository/` — Lógica de acesso a dados
-- `Services/` — Regras de negócio
-- `DTOs/` — Objetos de transferência de dados
-- `Data/` — Contexto do banco de dados
+- `Endpoints/` â€” Mapeamento dos endpoints da API
+- `Repository/` â€” LÃ³gica de acesso a dados
+- `Services/` â€” Regras de negÃ³cio
+- `DTOs/` â€” Objetos de transferÃªncia de dados
+- `Data/` â€” Contexto do banco de dados
 
-## Licença
+## LicenÃ§a
 
 MIT
 
 ---
 
 **Contato:**
-Para dúvidas ou oportunidades, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/douglas-rodrigues-santos) ou abra uma issue.
+Para dÃºvidas ou oportunidades, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/douglas-rodrigues-santos) ou abra uma issue.
