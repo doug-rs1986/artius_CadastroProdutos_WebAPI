@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cadastro de Produtos API", Version = "v1" });
 });
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -22,5 +23,10 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.MapProdutoEndpoints();
+
+app.UseCors(builder =>
+    builder.WithOrigins("http://localhost:3000")
+           .AllowAnyHeader()
+           .AllowAnyMethod());
 
 app.Run();

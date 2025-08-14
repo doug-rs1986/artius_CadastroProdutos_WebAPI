@@ -8,13 +8,13 @@ namespace artius_CadastroProdutos_WebAPI.Endpoints
     {
         public static void MapProdutoEndpoints(this IEndpointRouteBuilder app)
         {
-            app.MapPost("/produto", async (ProductCreateDto dto, IProdutoService service) =>
+            app.MapPost("/cadastrarProduto", async (ProductCreateDto dto, IProdutoService service) =>
             {
                 var produto = await service.AddProdutoAsync(dto);
                 return Results.Created($"/produto/{produto.Id}", produto);
             });
 
-            app.MapGet("/produto", async (IProdutoService service) =>
+            app.MapGet("/buscarProdutos", async (IProdutoService service) =>
             {
                 var produtos = await service.GetProdutosAsync();
                 return Results.Ok(produtos);
